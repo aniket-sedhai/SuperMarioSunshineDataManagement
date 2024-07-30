@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A1A114A92C252A410009B6DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1A114A82C252A410009B6DD /* main.cpp */; };
+		A1A114B42C252C570009B6DD /* GameData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1A114B22C252C570009B6DD /* GameData.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A1A114A52C252A410009B6DD /* SuperMarioSunshineDataManagement */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SuperMarioSunshineDataManagement; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A114A82C252A410009B6DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A1A114B12C252AB10009B6DD /* GameData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameData.h; sourceTree = "<group>"; };
+		A1A114B22C252C570009B6DD /* GameData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameData.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A1A114A82C252A410009B6DD /* main.cpp */,
+				A1A114B12C252AB10009B6DD /* GameData.h */,
+				A1A114B22C252C570009B6DD /* GameData.cpp */,
 			);
 			path = SuperMarioSunshineDataManagement;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1A114A92C252A410009B6DD /* main.cpp in Sources */,
+				A1A114B42C252C570009B6DD /* GameData.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
